@@ -62,19 +62,19 @@ userChoice = getUserTurn()
 gameEnv = createEnv()
 if userChoice == -1:
     print('write only a number')
-    print(createEnv())
+    print(gameEnv)
 if userChoice == 1:
     print('you are in the mountains')
-    print(createEnv())
+    print(gameEnv)
 elif userChoice == 2:
     print('you are in the Valley')
-    print(createEnv())
+    print(gameEnv)
 elif userChoice == 3:
     print('you are in the Desert')
-    print(createEnv())
+    print(gameEnv)
 elif userChoice == 4:
     print('you are at the river side')
-    print(createEnv())
+    print(gameEnv)
 else:
     print('sorry type again, did not understand')
         
