@@ -1,4 +1,5 @@
-#WELCOME 
+#WELCOME
+from Environment_class import Environment
 print('********************************')
 print('Welcome to the "CASTLE GAME"')
 print('********************************')
